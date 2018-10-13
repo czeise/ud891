@@ -38,12 +38,12 @@
       this.el.removeAttribute('checked');
 
       // Hmm.
-
+      this.el.setAttribute('aria-checked', 'false');
     } else {
       this.el.setAttribute('checked', '');
 
       // Hmmmmm.
-
+      this.el.setAttribute('aria-checked', 'true');
     }
   };
 
